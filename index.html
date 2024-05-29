@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing in Form</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="w-full h-screen flex flex-col justify-center items-center">
+    <!-- main form parent -->
+    <div class="mainform">
+        <div class="bg-white shadow-2xl w-[500px] h-[600px] border p-5">
+            <div class="flex justify-center items-center flex-col">
+                <img class="w-14 h-14 rounded-full" src="./img/e8f95f764b7299b7f3a554eae511b531.png" alt="">
+                <h1 class="font-semibold text-4xl text-orange-400">STREM LOGING</h1>
+            </div>
+            <div class="main">
+
+            </div>
+            <form id="formdata">
+                <input class="w-full border my-3 px-2 py-3 outline-none" type="text" placeholder="Youre Name" name="name"><br>
+                <input class="w-full border my-3 px-2 py-3 outline-none"  type="text" placeholder="Youre Email" name="email"><br>
+                <input class="w-full border my-3 px-2 py-3 outline-none"  type="text" placeholder="Youre Phone Number" name="number"><br>
+                <input class="w-full border my-3 px-2 py-3 outline-none"  type="text" placeholder="Youre Password" name="password"><br>
+                <input class="w-full border my-3 px-2 py-3 outline-none bg-green-400 text-white font-bold"  type="submit" value="Sign Ing">
+            </form>
+        </div>
+    </div>
+    <!-- data of form -->
+<div class="data my-40">
+    <table class="text-center w-[700px]">
+        <thead class="border border-red-500">
+            <tr>
+                <th class="border border-red-500">#</th>
+                <th class="border border-red-500">Name</th>
+                <th class="border border-red-500">Roll</th>
+                <th class="border border-red-500">Contact Cell</th>
+                <th class="border border-red-500">Order</th>
+            </tr>
+        </thead>
+
+        <tbody class="border border-amber-400">
+            <tr>
+                <td class="border border-amber-400">1</td>
+                <td class="border border-amber-400">1</td>
+                <td class="border border-amber-400">1</td>
+                <td class="border border-amber-400">1</td>
+                <td class="border border-amber-400">1</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <!-- script js -->
+    <script src="./app.js"></script>
+</body>
+</html> 
